@@ -1,13 +1,139 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+nav {
+display: flex;
+height: 70px;
+padding: 20px 36px;
+background: #FFFFFF;
+box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+
+nav > img {
+max-width: 100px;
+height:30px;
+
+}
+
+.hero-container {
+  width: 395.91px;
+height: 232px;
+padding-top: 90px;
+padding-left: 77px;
+  display: grid; 
+  align-items: center;
+
+}
+.img1 { grid-area: 1 / 1 / 3 / 2; 
+  width: 72.31px;
+  height: 96.42px;
+  left: 77px;
+  top: 144.81px;
+  border-radius: 8.95px;}
+.img2 {
+  width: 73.52px;
+height: 63.88px;
+left: 157.75px;
+top: 103.23px;
+}
+.img3 { grid-area: 2 / 2 / 3 / 3;
+  width: 72.31px;
+  height: 97.02px;
+  left: 157.75px;
+  top: 175.54px;
+  border-radius: 8.95px; }
+.img4 { grid-area: 1 / 3 / 2 / 4; }
+.img5 { grid-area: 2 / 3 / 3 / 4; }
+.img6 { grid-area: 1 / 4 / 2 / 5; }
+.img7 { grid-area: 2 / 4 / 3 / 5; }
+.img8 { grid-area: 1 / 5 / 2 / 6; }
+.img9 { grid-area: 2 / 5 / 3 / 6; }
+.hero-container > img {
+width: 72.91px;
+height: 96.42px;
+}
+
+.mid{
+height: 180px;
+padding-top: 40px;
+padding-left: 36px;
+}
+.mid > h1 {
+font-family: 'Poppins';
+font-size: 36px;
+line-height: 110%;
+
+}
+.mid > p {
+  width: 280px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 110%;
+/* or 18px */
+
+
+color: #222222;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  padding-left: 37px;
+  flex: 0 0 auto;
+  display: flex;          /* ADD */
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  width: 176px;
+height: 235px;
+  border-radius: 9px;
+  padding-top: 5px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  height: 20px;
+ 
+}
+
+
+.card--star {
+  height: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card--badge {
+  position: absolute;
+  top: 8px;
+  left: 44px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+
+
